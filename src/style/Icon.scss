@@ -1,0 +1,27 @@
+.icon {
+  width: 3.5vw;
+  height: 3.5vw;
+  border-radius: 0.9vw;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  cursor: pointer;
+  transition-duration: 0.3s;
+
+  &[data-main="true"] {
+    background-color: #D92424;
+  }
+
+  &[data-main="false"] {
+    background-color: #242C35;
+  }
+
+  &:hover {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+  }
+
+
+  img {
+    width: 3vw;
+  }
+}
